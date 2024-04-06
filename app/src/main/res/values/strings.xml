@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AndroidUiWidget</string>
+    <string name="app_name">CustomWidget</string>
+    <!-- Main Activity -->
+    <string name="otpview_btn">OtpView</string>
+
+    <!-- OptView Sample -->
+    <string name="otpview_info">Input \"12345\" for success, other for error.</string>
 </resources>

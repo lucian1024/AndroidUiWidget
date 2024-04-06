@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidUiWidget"
 include(":app")
- 
+include(":OtpView")

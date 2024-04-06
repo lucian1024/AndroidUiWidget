@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OtpView">
+        <attr name="edit_num" format="integer" />
+        <attr name="edit_width" format="dimension"/>
+        <attr name="edit_height" format="dimension"/>
+        <attr name="edit_space" format="dimension"/>
+        <attr name="edit_inputType" format="string">
+            <enum name="number" value="0"/>
+            <enum name="password" value="1" />
+            <enum name="text" value="2" />
+            <enum name="phone" value="3" />
+        </attr>
+        <attr name="edit_textSize" format="dimension"/>
+        <attr name="edit_textColor" format="color" />
+        <attr name="edit_fontFamily" format="string" />
+        <attr name="edit_normalBg" format="reference" />
+        <attr name="edit_successBg" format="reference" />
+        <attr name="edit_errorBg" format="reference" />
+    </declare-styleable>
+</resources>
